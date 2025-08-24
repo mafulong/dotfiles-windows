@@ -1,6 +1,6 @@
-$account = "jayharris"
+$account = "mafulong"
 $repo    = "dotfiles-windows"
-$branch  = "master"
+$branch  = "main"
 
 $dotfilesTempDir = Join-Path $env:TEMP "dotfiles"
 if (![System.IO.Directory]::Exists($dotfilesTempDir)) {[System.IO.Directory]::CreateDirectory($dotfilesTempDir)}
