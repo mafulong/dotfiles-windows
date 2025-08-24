@@ -1,4 +1,22 @@
-﻿# Fulong Ma's dotfiles for Windows
+﻿# 笔记
+
+执行顺序, 
+先备份还原点，再管理员模式的powershell
+
+```
+git clone https://github.com/mafulong/dotfiles-windows.git; 
+cd dotfiles-windows; 
+.\bootstrap.ps1
+.\windows.ps1
+
+```
+
+对于自己的软件,有重复安装的问题
+```
+.\my_softwares.ps1
+```
+# Fulong Ma's dotfiles for Windows
+
 
 Based on https://github.com/jayharris/dotfiles.
 
