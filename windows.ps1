@@ -305,9 +305,9 @@ Get-AppXProvisionedPackage -Online | Where DisplayName -like "Microsoft.WindowsC
 Get-AppxPackage "king.com.CandyCrushSodaSaga" -AllUsers | Remove-AppxPackage -AllUsers
 Get-AppXProvisionedPackage -Online | Where DisplayName -like "king.com.CandyCrushSodaSaga" | Remove-AppxProvisionedPackage -Online -AllUsers | Out-Null
 
-# Uninstall ClipChamp Video Editor
-Get-AppxPackage "Clipchamp.Clipchamp" -AllUsers | Remove-AppxPackage
-Get-AppXProvisionedPackage -Online | Where DisplayName -like "Clipchamp.Clipchamp" | Remove-AppxProvisionedPackage -Online -AllUsers | Out-Null
+# # Uninstall ClipChamp Video Editor
+# Get-AppxPackage "Clipchamp.Clipchamp" -AllUsers | Remove-AppxPackage
+# Get-AppXProvisionedPackage -Online | Where DisplayName -like "Clipchamp.Clipchamp" | Remove-AppxProvisionedPackage -Online -AllUsers | Out-Null
 
 # Uninstall Cortana
 Get-AppxPackage "Microsoft.549981C3F5F10" -AllUsers | Remove-AppxPackage -AllUsers
